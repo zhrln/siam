@@ -1,2 +1,0 @@
-# siam
-Siam-Blog program.

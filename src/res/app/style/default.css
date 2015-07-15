@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+.pic-wrap {
+  width: 640px;
+  margin: 0 auto;
+  position: relative;
+}
+.pic-wrap img.pic-ctn {
+  display: block;
+  width: 100%;
+}

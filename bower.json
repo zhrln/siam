@@ -1,0 +1,12 @@
+{
+  "name": "siam",
+  "version": "1.0.0",
+  "homepage": "https://github.com/zhrln/siam",
+  "authors": [
+    "rui<skyperson@gmail.com>"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "requirejs": "~2.1.19"
+  }
+}
