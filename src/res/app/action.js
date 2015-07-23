@@ -5,8 +5,7 @@ require([
     'jquery',
     'controls/link'
 ], function($, Link){
-    //$('.drag-handler').simpleDrag();
-    new Link($('.drag-handler'),{
-
+    new Link({
+        el: '.drag-handler'
     });
 });

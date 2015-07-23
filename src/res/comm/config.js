@@ -6,6 +6,7 @@ require.config({
     paths: {
         'jquery': '../comm/jquery/dist/jquery.min',
         'jquery/simpleDrag': '../comm/jquery.simple-drag/index',
+        'jquery/simpleResize': '../comm/jquery.simple-resize/index',
         'controls/link': '../widgets/controls/link/index'
     }
 });
