@@ -17,7 +17,9 @@
         var $this = $(node);
 
         function initProp(){
-
+            $this.css({
+                'background-color': 'rgba(0, 168, 255, 0.3)'
+            });
         }
 
         function initEvent(){
@@ -25,16 +27,20 @@
         }
 
         function initElements(){
-            addBorderAndHandle();
+            addHandle();
         }
 
-        function addBorderAndHandle(){
-            $this.css({
-                'border': '1px solid green'
+        function addHandle(){
+            this.$handle = $('<span class="resize-handler">').css({
+                'position': 'absolute',
+                'bottom': '0',
+                'right': '0',
+                'width': '10px',
+                'height': '10px',
+                'background-color': 'rgba(0, 168, 255, 0.7)',
+                'cursor': 'se-resize'
             });
-            this.$handle = $('<i>').css({
-
-            });
+            $this.append(this.$handle);
         }
 
         function init(){
